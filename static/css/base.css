@@ -3,11 +3,32 @@ html {
 }
 
 
-.hero-image{
-    background: url('/media/heroimage5.jpg') no-repeat center center fixed;
-    background-size: cover;
+body {
+    background: url('/media/heroimage6.jpg');
     height: 100vh;
-    width: 100vw;
-    color: #555;
-    font-family: 'Lato';
 }
+
+.navbar{
+    background-color: transparent !important;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+
+}
+
+.hero-message{
+    margin-top: 50px;
+    color:#fff;
+    margin-bottom: 20px !important;
+}
+
+.message {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.book-now{
+    margin-top: 25px;
+}
+
