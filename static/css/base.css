@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&family=Playwrite+CZ:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+AR:wght@100..400&family=Playwrite+CZ:wght@100..400&family=Playwrite+PE:wght@100..400&display=swap');
+
 html {
     height: 100%;
 }
 
 
-body {
+.body-home {
     background: url('/media/heroimage6.jpg');
     height: 100vh;
 }
@@ -12,8 +15,13 @@ body {
     background-color: transparent !important;
 }
 
+.navbar-brand {
+    font-size: 30px;
+}
+
 .navbar-brand, .nav-link {
     color: #fff !important;
+    font-family: "Dancing Script", cursive;
 
 }
 
@@ -26,9 +34,20 @@ body {
 .message {
     font-weight: 500;
     font-size: 30px;
+    font-family: "Dancing Script", cursive;
 }
 
 .book-now{
     margin-top: 25px;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: #fff;
+	z-index: 1;
 }
 

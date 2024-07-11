@@ -2,6 +2,7 @@
 {% load static %}
 
 {% block content %}
+<body class="body-home">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#"><strong>Condado 539</strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,10 +11,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
+          <a class="nav-link" href="{% url 'gallery' %}">Gallery</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
@@ -27,10 +28,11 @@
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-message text-center">
           <h5 class="message">A beautiful apartment in the heart of southern Spain</h5>
-          <p><a href="#" class="btn btn-primary btn-large book-now">Book Now »</a></p>
+          <p><a href="{% url 'gallery' %}" class="btn btn-primary btn-large book-now">View Gallery »</a></p>
         </div>
       </div>
     </div>
 
   </section>
+</body>
 {% endblock %}
