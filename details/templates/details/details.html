@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static '/css/details.css' %}">
+{% endblock %}
+
+{% block content %}
+<body class="body-details">
+<nav class="navbar navbar-details navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><strong>Condado 539</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'details' %}">Details</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'gallery' %}">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-12 text-black text-center">
+              <h2 class="details-header">Welcome</h2>
+              <hr class="w-100">
+          </div>
+          
+      </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-12 custom-margin text-white text-center">
+          <img class="details-image1" src="{{ MEDIA_URL }}images/front-terrace2.jpg" />
+        </div>
+    </div>
+</div>
+  </section>
+</body>
+  {% endblock %}

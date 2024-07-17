@@ -18,6 +18,9 @@
           <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only"></span></a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="{% url 'details' %}">Details</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="{% url 'gallery' %}">Gallery</a>
         </li>
         <li class="nav-item">
@@ -28,7 +31,7 @@
   </nav>
 
   <section>
-    <h2 class="galler-header text-center">Photo Gallery</h2>
+    <h2 class="gallery-header text-center">Photo Gallery</h2>
 
     <div class="wrap">
     
@@ -41,62 +44,93 @@
       
       <div class="box">
         <div class="boxInner">
-          <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/2.jpg"  />
+          <img src="{{ MEDIA_URL }}images/front-terrace1.jpg"  />
           <div class="titleBox">Purple wildflowers</div>
         </div>
       </div>
       <div class="box">
         <div class="boxInner">
-          <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/3.jpg" />
+          <img src="{{ MEDIA_URL }}images/front-terrace3.jpg" />
           <div class="titleBox">A birdfeeder</div>
         </div>
       </div>
       <div class="box">
         <div class="boxInner">
-          <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/10.jpg" />
+          <img src="{{ MEDIA_URL }}images/lounge.jpg" />
           <div class="titleBox">Crocus close-up</div>
         </div>
       </div>
       <div class="box">
         <div class="boxInner">
-          <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/4.jpg" />
+          <img src="{{ MEDIA_URL }}images/lounge1.jpg" />
           <div class="titleBox">The garden shop</div>
         </div>
       </div>
       <div class="box">
         <div class="boxInner">
-          <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/5.jpg" />
+          <img src="{{ MEDIA_URL }}images/lounge2.jpg" />
           <div class="titleBox">Spring daffodils</div>
         </div>
       </div>
       <div class="box">
         <div class="boxInner">
-          <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/6.jpg" />
+          <img src="{{ MEDIA_URL }}images/lounge3.jpg" />
           <div class="titleBox">Iris along the path</div>
         </div>
       </div>
       <div class="box">
         <div class="boxInner">
-          <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/8.jpg" />
+          <img src="{{ MEDIA_URL }}images/bedroom.jpg" />
           <div class="titleBox">The garden blueprint</div>
         </div>
       </div>
       <div class="box">
         <div class="boxInner">
-          <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/9.jpg" />
+          <img src="{{ MEDIA_URL }}images/bedroom1.jpg" />
           <div class="titleBox">The patio</div>
         </div>
       </div>
       <div class="box">
         <div class="boxInner">
-          <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/11.jpg" />
+          <img src="{{ MEDIA_URL }}images/box-room.jpg" />
           <div class="titleBox">Bumble bee collecting nectar</div>
         </div>
       </div>
       
       <div class="box">
         <div class="boxInner">
-          <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/12.jpg" />
+          <img src="{{ MEDIA_URL }}images/kitchen.jpg" />
+          <div class="titleBox">Bumble bee collecting nectar</div>
+        </div>
+      </div>
+
+      
+      <div class="box">
+        <div class="boxInner">
+            <img src="{{ MEDIA_URL }}images/back-terrace.jpg" />
+          <!--footer -->
+          <div class="titleBox">Winding garden path</div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="boxInner">
+            <img src="{{ MEDIA_URL }}images/back-terrace1.jpg" />
+          <div class="titleBox">Winding garden path</div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="boxInner">
+            <img src="{{ MEDIA_URL }}images/pool.jpg" />
+          <!--footer -->
+          <div class="titleBox">Winding garden path</div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="boxInner">
+            <img src="{{ MEDIA_URL }}images/park.jpg" />
           <!--footer -->
           <div class="titleBox">Winding garden path</div>
         </div>

@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+}
+
+.body-gallery {
+    background: #fff;
+}
+
+.details-header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.navbar{
+    background-color: #6e9fda !important;
+}
+
+.details-image1 {
+    height: 280px;
+    width: 100%;
+}

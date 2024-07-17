@@ -4,14 +4,17 @@
 {% block content %}
 <body class="body-home">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><strong>Condado 539</strong></a>
+    <a class="navbar-brand" href="#"><strong></strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'details' %}">Details</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{% url 'gallery' %}">Gallery</a>
@@ -24,14 +27,33 @@
   </nav>
 
   <section>
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-12 custom-margin text-center">
+              <h2 class="main-header">Condado 539</h2>
+              <h6 class="sub-header">Relax Unwind Connect</h4>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-white text-center">
+            <img class="hero-image" src="{{ MEDIA_URL }}/heroimage6.jpg"
+        </div>
+    </div>
+  </div>
+  </section>
+  <section>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-message text-center">
-          <h5 class="message">A beautiful apartment in the heart of southern Spain</h5>
-          <p><a href="{% url 'gallery' %}" class="btn btn-primary btn-large book-now">View Gallery »</a></p>
-        </div>
+          <div class="col-12 description-section">
+            <div class="col-8">
+            <h3 class="description-header">Your private getaway in southern Spain</h3>
+            </div>
+            <div class="col-12 description-message">
+              <p>Condado de Alhama is a picturesque resort located in the heart of Murcia, Spain, surrounded by stunning natural landscapes. This vibrant community offers a range of modern amenities, including a golf course, swimming pools, and various dining options.</p>
+            </div>
+          </div>
       </div>
-    </div>
+  </div>
 
   </section>
 </body>
