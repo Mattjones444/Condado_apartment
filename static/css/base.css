@@ -20,7 +20,11 @@ html {
     font-family: "Cormorant Garamond", serif;
     font-weight: 200;
     font-style: italic;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+}
+
+.header-divider {
+  margin-bottom: 40px;
 }
 
 .hero-image {
@@ -168,6 +172,33 @@ html {
     color:#fff;
     margin-bottom:0;
   }
+
+  .gallery-header {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #4a5867;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+  }
+
+  .description-section-gallery {
+    background-color: #77a6dd;
+    height: 460px;
+    width:100%;
+}
+
+.description-section-condado {
+  background-color: #77a6dd;
+  height: 450px;
+  width:100%;
+}
+
+.condado-divider{
+  border-color:#fff;
+}
+
 
 
 
