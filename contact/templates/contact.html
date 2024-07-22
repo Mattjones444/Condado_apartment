@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load crispy_forms_tags %}
 
 {% block extra_css %}
 {% endblock %}
@@ -50,9 +51,25 @@
         <section>
           <div style="background:#fff;width:212px; margin-left:75px;"><iframe src="https://www.availcalendar.com/print/23348?mode=5" width="212" height="251" frameborder="0" scrolling="no"></iframe>
           </div>
+      </section>
 
+      <section>
+        <div class="row">
+          <div class="col-12 custom-margin text-center">
+                <h2 class="step-1-header">Step Two</h2>
+                <hr class="w-25">
+                <p class="contact-info1">Fill in the form and let us know when you'd like to stay</p>
+          </div>
+      </div>
+      <div class="container">
+        <form method="post">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <button type="submit" class="btn btn-primary mx-auto">Submit</button>
+        </form>
+    </div>
 
-        </section>
+      </section>
       </body>
                 
 

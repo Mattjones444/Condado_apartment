@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'home',
     'gallery',
     'contact',
+    'crispy_forms',
+    'crispy_bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -140,3 +142,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 GOOGLE_MAPS_API = os.getenv('GOOGLE_MAPS_API')
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+
