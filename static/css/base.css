@@ -199,6 +199,37 @@ html {
   border-color:#fff;
 }
 
+.contact-header {
+  background-color: #77a6dd;
+  color: #fff;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 20px;
+  padding:20px;
+  font-size: 38px;
+}
+
+.step-1-header {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 20px;
+  padding:20px;
+  font-size: 34px;
+
+}
+
+.contact-info {
+
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 25px;
+
+}
+
+
 
 
 
