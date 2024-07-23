@@ -29,7 +29,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG')
 
-ALLOWED_HOSTS = ['8000-mattjones44-condadoapar-7bczse5k1sg.ws-eu115.gitpod.io']
+ALLOWED_HOSTS = ['8000-mattjones44-condadoapar-7bczse5k1sg.ws-eu115.gitpod.io', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -144,5 +144,16 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 GOOGLE_MAPS_API = os.getenv('GOOGLE_MAPS_API')
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-mattjones44-condadoapar-7bczse5k1sg.ws-eu115.gitpod.io']
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'localhost'
+EMAIL_PORT = 1025
+EMAIL_USE_TLS = False
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 
 
