@@ -261,6 +261,7 @@ button {
   font-weight: 500;
   font-style: italic;
   font-size: 20px;
+  margin-top: 15px;
 }
 
 label {
@@ -270,6 +271,31 @@ label {
   font-size: 20px;
 
 }
+
+/* Media Queries */
+
+/* iPad Mini */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    
+  .hero-image, .hero-image1 {
+    width:95%;
+    height: 570px;
+    background-size: cover;
+
+}
+
+.description-section-condado {
+  height:300px;
+}
+
+.description-section-gallery {
+  height: 300px;
+}
+  }
 
 
 
