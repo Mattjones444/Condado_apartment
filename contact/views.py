@@ -36,7 +36,7 @@ def contact(request):
                 ['condado539@gmail.com'],
                 fail_silently=False,
             )
-            return redirect('contact_success')  # Redirect to a success page or another view
+            return redirect('contact_success')
     else:
         form = ContactForm()
 

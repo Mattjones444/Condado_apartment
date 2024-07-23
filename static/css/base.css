@@ -231,6 +231,44 @@ html {
 
 .contact-info1 {
   margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 25px;
+}
+
+#id_message {
+  width: 100%;
+}
+
+.margin {
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+
+button {
+  background-color: #77a6dd;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 20px;
+}
+
+label {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 20px;
+
 }
 
 

@@ -61,13 +61,13 @@
                 <p class="contact-info1">Fill in the form and let us know when you'd like to stay</p>
           </div>
       </div>
-      <div class="container">
+      <div class="container text-center">
         <form method="post">
           {% csrf_token %}
           {{ form.as_p }}
           <button type="submit">Submit</button>
       </form>
-      <hr class="w-25">
+      <hr class="w-25 margin">
 
       </section>
       <div class="footer-basic">
