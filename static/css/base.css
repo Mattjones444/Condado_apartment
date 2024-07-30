@@ -220,6 +220,12 @@ html {
 
 }
 
+.calendar-container {
+  background: #fff;
+  width: 212px;
+  margin-left: 75px;
+}
+
 .contact-info {
 
   font-family: "Cormorant Garamond", serif;
@@ -282,10 +288,21 @@ label {
   and (-webkit-min-device-pixel-ratio: 1) {
     
   .hero-image, .hero-image1 {
-    width:95%;
-    height: 570px;
+    width:90%;
+    height: 560px;
     background-size: cover;
 
+}
+
+.description-section {
+  height: 270px;
+}
+
+.description-section-features {
+  height: 400px; 
+  background-color: #77a6dd;
+  height: 370px;
+  width:100%;
 }
 
 .description-section-condado {
@@ -294,6 +311,10 @@ label {
 
 .description-section-gallery {
   height: 300px;
+}
+
+.calendar-container {
+  margin-left: 310px;
 }
   }
 
