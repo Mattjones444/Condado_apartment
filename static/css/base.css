@@ -343,28 +343,102 @@ label {
 }
 
 /* Laptop Screens */
-@media screen 
-  and (min-device-width: 1200px) 
+@media only screen 
+  and (min-device-width: 1112px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
-
-
 .hero-image {
-  height: 1000px;
+  height: 900px;
   width: 70%;
   background-size: contain;
-
+  margin-top: 30px;
 }
 
+.description-section-large {
+  background-color: #77a6dd;
+  height: 400px;
+  width: 500px;
+  margin-left: -280px;
+  margin-top: 90px;
+}
 
+.main-header {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-size: 40px;
+  font-style: normal;
+  color: #4a5867;
+  margin-top: 30px;
+}
+
+.sub-header {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 200;
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
 
 .hero-image1 {
-  height: 800px;
-  width: 90%;
+  height: 600px;
+  width: 85%;
   background-size: contain;
+  margin-top: 30px;
+}
+
+.address {
+  font-size: 25px;
+}
+
+.calendar-container {
+  background: #fff;
+  width: 212px;
+  margin-left: 620px;
+}
+
+.description-header {
+  font-size: 30px;
+}
+
+.description-message {
+  font-size: 25px;
+}
+
+.description-section-features {
+  height: 500px; 
+  background-color: #77a6dd;
+  width:100%;
+}
+
+.map-header {
+  font-size: 40px;
+}
+
+.location-message {
+  font-size: 25px;
+}
+
+.description-section-condado {
+  height: 300px;
+}
+
+.condado-divider {
+  margin-top: 40px;
+}
+
+.gallery-header {
+  font-size: 40px;
+}
+
+.carousel {
+    width: 80%;
+    margin: 0 auto; 
 }
 }
+
+
+
 
 
 
