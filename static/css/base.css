@@ -39,6 +39,12 @@ html {
     width:100%;
 }
 
+.description-section-features {
+  height: 420px; 
+  background-color: #77a6dd;
+  width:100%;
+}
+
 .description-header {
     margin-top: 35px;
     color:#fff;
@@ -317,6 +323,50 @@ label {
   margin-left: 310px;
 }
   }
+
+/* iPad Pro */
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+.hero-image {
+  width: 90%;
+  height: 600px;
+}
+
+.calendar-container {
+  margin-left: 400px;
+}
+
+}
+
+/* Laptop Screens */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+
+.hero-image {
+  height: 1000px;
+  width: 70%;
+  background-size: contain;
+
+}
+
+
+
+.hero-image1 {
+  height: 800px;
+  width: 90%;
+  background-size: contain;
+}
+}
+
+
 
 
 
