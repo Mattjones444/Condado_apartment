@@ -137,6 +137,7 @@ USE_TZ = True
 
 STATIC_URL = '/kunden/homepages/35/d1018539244/htdocs/static/css'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+STATIC_ROOT = os.path.join(BASE_DIR, '/kunden/homepages/35/d1018539244/htdocs/static/css')
 
 MEDIA_URL = '/kunden/homepages/35/d1018539244/htdocs/media/images'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
