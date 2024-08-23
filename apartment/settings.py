@@ -30,7 +30,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG')
 
-ALLOWED_HOSTS = ['8000-mattjones44-condadoapar-7bczse5k1sg.ws-eu115.gitpod.io','condado539', 'localhost', '127.0.0.1', 'condado539-1658a47b9c01.herokuapp.com']
+ALLOWED_HOSTS = ['8000-mattjones44-condadoapar-7bczse5k1sg.ws-eu115.gitpod.io','www.condado539.com', 'localhost', '127.0.0.1', 'condado539-1658a47b9c01.herokuapp.com']
 
 
 # Application definition
