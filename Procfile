@@ -1,1 +1,1 @@
-web: gunicorn condado_apartment.wsgi
+web: gunicorn apartment.wsgi
