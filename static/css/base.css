@@ -284,6 +284,21 @@ label {
 
 }
 
+.success-header {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #4a5867;
+  margin-top: 30px;
+}
+
+.success-sub {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 200;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
 /* Media Queries */
 
 /* iPad Mini */
