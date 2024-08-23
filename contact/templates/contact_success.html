@@ -21,7 +21,7 @@
               <a class="nav-link" href="{% url 'gallery' %}">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="{% url 'contact' %}">Contact</a>
             </li>
           </ul>
         </div>
@@ -36,8 +36,9 @@
                 </div>
           </div>
 
-          <div>
-            <h1>SUCCESS!!</h1>
+          <div class="success-message text-center">
+            <h1>SUCCESS!</h1>
+            <h3>Your host will contact you via email to confirm your booking and let you know the next steps.</h3>
           </div>
 
 {% endblock %}
