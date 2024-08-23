@@ -13,6 +13,7 @@ def contact(request):
             check_in = form.cleaned_data['check_in']
             check_out = form.cleaned_data['check_out']
             
+            # Email content
             email_message = f"""
             Name: {name}
             Email: {email}
@@ -21,6 +22,7 @@ def contact(request):
             Check-out Date: {check_out}
             """
 
+            # Save the form data to the database
             ContactSubmission.objects.create(
                 name=name,
                 email=email,
@@ -29,13 +31,16 @@ def contact(request):
                 check_out=check_out
             )
 
+            # Send an email
             send_mail(
                 f'Contact Form Submission from {name}',
                 email_message,
-                email,
-                ['condado539@gmail.com'],
+                email,  # From email address
+                ['condado539@gmail.com'],  # To email address
                 fail_silently=False,
             )
+            
+            # Redirect after successful submission
             return redirect('contact_success')
     else:
         form = ContactForm()
